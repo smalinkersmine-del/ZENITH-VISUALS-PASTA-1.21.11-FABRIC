@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "zenithvisuals",
+  "version": "1.4.8",
+  "name": "ZenithVisuals",
+  "description": "Reference-matched translucent five-column ClickGUI, clean compact HUD and optimized 3D target ESP for Minecraft 1.21.11.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.zenithvisuals.ZenithVisuals"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": ">=0.141.5+1.21.11"
+  }
+}
